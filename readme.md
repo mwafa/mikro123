@@ -1,6 +1,8 @@
 # Mikro123
 
 Sebuah sistem untuk menterjemahkan suara menjadi bahasa isyarat.
+Aplikasi ini membantu orang-orang untuk bisa menggunakan bahasa isyarat,
+sehingga bisa berkomunikasi dengan tuna rungu.
 
 ## Pre-Install
 
