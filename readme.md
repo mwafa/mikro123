@@ -6,10 +6,11 @@ sehingga bisa berkomunikasi dengan tuna rungu.
 
 ## Pre-Install
 
-Pertama install `SpeechRecognition` dan `PyAudio`.
+Pertama install `SpeechRecognition`, `openCV` dan `PyAudio`.
 
 ```bash
 pip install SpeechRecognition
+pip install opencv-python
 pip install PyAudio
 ```
 
@@ -26,4 +27,12 @@ Masuk ke folder `mikro123` kemudian
 
 ```bash
 python totext.py
+```
+
+## Test Video Player
+
+Masuk ke folder `mikro123` kemudian
+
+```bash
+python play.py
 ```
