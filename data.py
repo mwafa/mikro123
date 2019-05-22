@@ -3,18 +3,18 @@ data = {
 	"kamu": ["kamu", "lo", "anda", "sampean", "kon", "koe", "kowe"],
 	"dia" : ["dia", "ia"],
 	"kita" : ["kita"],
+	"kami": ['kami'],
+	"mereka": ["mereka"],
 
-	"pergi": ["pergi", "berangkat", "lungo"],
-	"makan": ["makan", "memakan"],
-	"belajar": ["belajar", "sinau", "ngaos"],
-	"tidur": ["tidur", "tilem", "bobok", "turu"],
+	"apa": ["apa", "apakah"],
+	"bagaimana": ["bagaimana"],
+	"kapan":["kapan"],
+	"dimana": ["dimana"],
+	"kenapa": ["kenapa", "mengapa"],
+	"siapa": ["siapa"],
 
-	"sekolah": ["sekolah", "sekolahan", "kampus", "kelas"],
-	"pasar": ["pasar", "market", "indomart", "swalayan", "mall"],
-
-	"tadi": ["tadi"],
-	"siang": ["siang"],
-	"kemarin" : ["kemarin"],
-	"lusa": ["lusa"],
-	"besok":["besok"]
+	"laki-laki": ["laki-laki", "pria", "cowok"],
+	"pacar": ["pacar"],
+	"perempuan": ["perempuan", "cewek", "wanita"],
+	"teman": ["teman"]
 }

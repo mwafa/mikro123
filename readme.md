@@ -21,18 +21,21 @@ git clone https://github.com/mwafa/mikro123.git
 cd mikro123
 ```
 
-## Test Speech to Text
+## Running
 
-Masuk ke folder `mikro123` kemudian
+Menjalankan program dengan:
 
 ```bash
-python totext.py
+python start.py
 ```
 
-## Test Video Player
+Lalu katakan sesuatu
 
-Masuk ke folder `mikro123` kemudian
+## Menambah Database Kata
 
-```bash
-python play.py
+Lektakkan video baru dengan format `.mp4` kedalam folder `video`.
+Daftarkan video kedalam file `data.py`
+
+```python
+data["videoname"] = ["kata", "padanan kata"]
 ```
