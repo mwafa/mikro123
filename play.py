@@ -12,7 +12,7 @@ def  play(nama):
 		        # & 0xFF is required for a 64-bit system
 		        if cv2.waitKey(1) & 0xFF == ord('q'):
 		            break
-		        time.sleep(.04)
+		        time.sleep(.01)
 		    else:
 		        break
 		cap.release()

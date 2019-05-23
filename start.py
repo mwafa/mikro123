@@ -4,6 +4,8 @@ from data import data
 
 kata = get_text()
 print(kata)
+if not kata:
+	exit()
 video = {}
 for j in data.keys():
 	for i in data[j]:

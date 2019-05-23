@@ -16,5 +16,5 @@ data = {
 	"laki-laki": ["laki-laki", "pria", "cowok"],
 	"pacar": ["pacar"],
 	"perempuan": ["perempuan", "cewek", "wanita"],
-	"teman": ["teman"]
+	"teman": ["teman", "temen"]
 }
