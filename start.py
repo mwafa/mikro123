@@ -4,11 +4,14 @@ from data import data
 
 kata = get_text()
 print(kata)
-video = []
-for i in kata.split(" "):
-	for j in data.keys():
-		if i.lower() in data[j]:
-			video.append(j)
-
-print(video)
-play(video)
+if not kata:
+	exit()
+video = {}
+for j in data.keys():
+	for i in data[j]:
+		video[(" %s "%kata.lower()).find(" %s "%i)] = j
+key = list(video.keys())
+key.sort()
+videoList = [video[i] for i in key if i>=0]
+print(videoList)
+play(videoList)
