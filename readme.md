@@ -23,13 +23,19 @@ cd mikro123
 
 ## Running
 
-Menjalankan program dengan:
+Menjalankan program __sekali__ dengan:
 
 ```bash
-python start.py
+python start.py # kemudian katakan sesuatu
 ```
 
-Lalu katakan sesuatu
+Menjalankan progam __berulang__ dengan:
+
+```bash
+python start.py loop
+```
+
+untuk mengakhiri katakan "_Tutup aplikasi_" atau tekan `ctrl + c` 
 
 ### Running tanpa suara
 
