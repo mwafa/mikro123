@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 import time
+import sys
 
 def  play(nama):
 	for i in nama:
@@ -19,4 +20,7 @@ def  play(nama):
 	cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-	play(["bagaimana"])
+	if len(sys.argv) > 1:
+		play(sys.argv[1:])
+	else:
+		play(["bagaimana"])

@@ -31,6 +31,33 @@ python start.py
 
 Lalu katakan sesuatu
 
+### Running tanpa suara
+
+Kamu bisa langsung memasukkan kalimat tanpa menggunakan suara dari mic.
+
+```bash
+python start.py -m "dimana rumah pacar kamu ?"
+```
+
+### Test Spech to Text
+
+```bash
+python totext.py # kemudian katakan sesuatu
+```
+
+### Test Video Player
+
+```bash
+python play.py
+```
+
+untuk menampilkan video lebih spesifik
+
+```bash
+python play.py "videoname1" "videoname2" # dan seterusnya...
+```
+
+
 ## Menambah Database Kata
 
 Lektakkan video baru dengan format `.mp4` kedalam folder `video`.
