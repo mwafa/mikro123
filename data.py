@@ -21,7 +21,7 @@ data = {
         
         "makan": ["makan", "nedho", "dhahar", "maem"],
         "minum": ["minum"],
-        "belajar": ["belajar", "sinau", "maos"],
+        "belajar1": ["belajar", "sinau", "maos"],
         "pergi": ["pergi", "berangkat", "lungo"],
 
         "halo": ["halo", "hai", "hallo"],
